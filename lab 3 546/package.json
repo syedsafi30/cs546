@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "My lab 4 module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Safiuddin Syed",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.10.0"
+  },
+  "keywords": []
+}
