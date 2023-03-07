@@ -1,0 +1,106 @@
+/*This file should have CSS rulesets */
+h1 {
+  color: red;
+  font-size: 10;
+}
+
+h2 {
+  color: blue;
+  font-size: 10;
+}
+
+p {
+  color: #8262a4;
+  font-size: 10;
+  
+}
+.newcolor {
+  color: pink;
+  font-size: 10;
+  font-family: cursive;
+}
+body {
+  color: paleturquoise;
+  font-size: 10;
+  background-color: aquamarine;
+  font-family: sans-serif;
+}
+label {
+  font-weight: bold;
+  color: black;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: rgb(168, 55, 55);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:double;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+li:hover{
+    background-color: #4caf50; /* Green */
+    color: black;
+}
+form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(241, 222, 43);
+    border-radius: 4px;
+    background-color: #733cbc;
+    color: white;
+}
+li{
+    color: rgb(161, 131, 211);
+    font-size: 10;
+    font-family: cursive;
+  
+}
+
+a{
+    color: rgb(161, 131, 211);
+    font-size: 10;
+    font-family: cursive;
+}
+
+a:hover {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+
+dd{
+    color: rgb(161, 131, 211);
+    font-size: 10;
+    font-family: cursive;
+}
+dd:hover {
+    background-color: #664caf; /* Green */
+    color: white;
+  }
+
+dt{
+    
+        color: rgb(161, 131, 211);
+        font-size: 10;
+        font-family: cursive;
+}
+
+dt:hover {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+
+
+
+
+

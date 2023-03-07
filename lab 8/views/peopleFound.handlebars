@@ -1,0 +1,19 @@
+
+
+    <main>
+        <title>People Found</title>
+          <link rel="stylesheet" href="/public/main-styles.css">
+        <h1>
+            People Found
+        </h1>
+        <h2>
+            {{searchname}}
+        </h2>
+       <ul class="newcolor">
+        
+        {{#each people}}
+       <li > <a href="/persondetails/{{id}}">{{firstName}}{{lastName}}</a></li>
+        {{/each}}
+       </ul>
+       <a href="/">Make another search</a>
+    </main>

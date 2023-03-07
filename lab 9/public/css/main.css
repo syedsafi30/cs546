@@ -1,0 +1,75 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. You must style the is-green class to make text have a color of #00E676 and is-red class to make text have a color of #FF3D00.
+*/
+
+h1 {
+    color: rgb(118, 21, 137);
+    font-size: 10;
+  }
+  
+  h2 {
+    color: blue;
+    font-size: 10;
+  }
+  
+  p {
+    color: hsl(237, 75%, 12%);
+    font-size: 10;
+    
+  }
+  .newcolor {
+    color: pink;
+    font-size: 10;
+    font-family: cursive;
+  }
+  body {
+    color: rgb(194, 153, 64);
+    font-size: 10;
+    background-color: rgb(213, 162, 34);
+    font-family: sans-serif;
+  }
+  label {
+    font-weight: bold;
+    color: black;
+  }
+  button {
+    background-color: #f6c190; /* Green */
+    border: 2px solid black;
+    color: rgb(168, 55, 55);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: #f3d898; /* Green */
+    color: black;
+  }
+  
+  li:hover{
+      background-color: rgb(240, 240, 165); /* Green */
+     
+  }
+  form{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid rgb(241, 222, 43);
+      border-radius: 4px;
+      background-color: #733cbc;
+      color: white;
+  }
+  li { color: green; }
+  li:nth-child(even) { color: red; }
+  
+ div{
+color: black;
+  }
+  
+ 
+  
+ 

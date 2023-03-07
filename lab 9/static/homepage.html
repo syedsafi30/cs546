@@ -1,0 +1,48 @@
+<!-- 
+Your page should have a few basic user interface elements:
+-A header tag, with an h1 naming your site, with a title for your page
+-A footer with your name, student ID, and any other info about yourself you wish to include
+-A single unordered list with an id of results. All the arrays you have checked so far (until you refresh the page) will appear in this list as list items. Each item in the list will alternate the text colors starting with green, then red, then green, then red etc.
+
+Your page will have a form with the following:
+-A label with a for attribute referencing your input
+-A input with a name and type of text
+-A button to submit the form
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sorting Arrays</title>
+    <link rel="stylesheet" href="/public/css/main.css" />
+  </head>
+  <body>
+    <div id="error" class="error" hidden>I'm an error</div>
+	<br>
+    <h1>Sorting Arrays</h1>
+    <footer>
+      <p>Author: Safiuddin Syed</p>
+      <p>Student Id: 20011128</p>
+      <p>
+        I am clueless and I don't know what is happenning in my life, Also do I
+        really need to learn python?
+      </p>
+    </footer>
+
+    
+    <form method="POST" id="myForm">
+      <label for="userinput" id="formLabel"> Enter Arrays:</label>
+        <input type="text" class="FormInput" name="userinput" id="userinput" placeholder="Input " />
+      <button type="submit">Enter Value</button>
+
+      
+    </form>
+
+    <ul id="results"> </ul>
+    
+    <script src="/public/js/main.js" async></script> 
+    
+  </body>
+</html>
